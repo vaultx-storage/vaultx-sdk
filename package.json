@@ -1,26 +1,40 @@
 {
-  "name": "vaultx-sdk",
-  "version": "1.0.0",
+  "name": "@vaultx/sdk",
+  "version": "0.1.0",
+  "description": "Official VaultX SDK for JavaScript/TypeScript",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
+
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
-  "files": [
-    "dist"
-  ]
-}
+
   "keywords": [
     "vaultx",
     "filecoin",
+    "storage",
     "sdk",
-    "storage"
+    "web3"
   ],
-  "author": "vaultx-storage",
+
+  "author": "VaultX Team",
   "license": "MIT",
-  "dependencies": {
+
+  "files": [
+    "dist"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaultx-storage/vaultx-sdk.git"
   },
+
+  "dependencies": {},
+
   "devDependencies": {
-    "typescript": "^5.6.3"
+    "typescript": "^5.3.3"
   }
 }
