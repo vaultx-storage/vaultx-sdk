@@ -1,0 +1,25 @@
+{
+  "name": "@vaultx/sdk",
+  "version": "0.1.0",
+  "description": "Official VaultX SDK for JavaScript/TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "vaultx",
+    "filecoin",
+    "sdk",
+    "storage"
+  ],
+  "author": "vaultx-storage",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
