@@ -1,2 +1,2 @@
+// src/index.ts
 export * from "./client";
-export { VaultXClient as default } from "./client";
